@@ -1,0 +1,9 @@
+{
+  "name": "abg-front-end",
+  "version": "1.0.0",
+  "description": "Front-end for ABG prompt with Netlify serverless function",
+  "main": "index.js",
+  "dependencies": {
+    "node-fetch": "^2.6.7"
+  }
+}
