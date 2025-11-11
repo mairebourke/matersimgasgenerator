@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>ABG Report Frontend</title>
+  <!-- Simple styling; you can extend or replace with your own CSS framework -->
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="container">
+    <h1>ABG Report Frontend</h1>
+    <form id="abgForm">
+      <label for="scenario">Clinical Scenario</label>
+      <textarea id="scenario" placeholder="e.g., 72‑year‑old male in septic shock" rows="4"></textarea>
+      <button type="submit">Generate Report</button>
+    </form>
+    <pre id="output"></pre>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
